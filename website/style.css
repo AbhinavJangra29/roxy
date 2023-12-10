@@ -1,0 +1,93 @@
+body {
+    background: linear-gradient( lightblue, lavender, lightgreen, yellow, orange, red);
+}
+
+h1{
+    color:rgb(35, 58, 54);
+    font-family:"press Start 2P";
+    border-style: outset;
+    border-width: 10px;
+    text-shadow: 2px 2px 2px lightblue,0px 0px 5px darkgreen;
+}
+h2{
+    font-family: silkscreen;
+    text-decoration:darkgreen wavy underline;
+    font-size: 30px;
+    text-shadow: 1px 1px 1px ;
+    
+    
+}
+
+p{
+    color:rgb(35, 58, 54);
+    font-family:"consolas";
+    font-weight: 500;
+    font-size:18px;
+    border-style:groove;
+    border-color:darkgreen;
+    border-radius: 10px;
+    
+    padding: 5px;
+    background: linear-gradient(lightgreen,lightblue);
+}
+ 
+li:nth-child(n){
+    background: linear-gradient(lightgreen,lightblue);
+    color:darkgreen; /* Set the text color to white for better visibility */
+    font-family: Consolas;
+    font-size: 18px;
+    padding: 5px; /* Add some padding for better aesthetics */
+    margin-bottom: 5px;
+    font: weight 20px;;
+}
+
+.fa-linkedin{
+    color:#0077b5;
+    size: 10px;
+}
+.fa-instagram{
+    color:yellow;
+}
+
+.fa-github{
+    color: purple;
+}
+.fa-brands {
+    font-size: 30px; /* Adjust the size as needed */
+}
+
+
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes fadeOut {
+    from {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    to {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+  }
+  
+  .fade-in {
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+  .fade-out {
+    animation: fadeOut 1s ease-in-out;
+  }
+
+  
+
+
+  
